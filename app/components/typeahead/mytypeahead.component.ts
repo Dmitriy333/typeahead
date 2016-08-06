@@ -1,7 +1,7 @@
 import {Component, Injectable, Output, EventEmitter} from '@angular/core';
 import {Control} from '@angular/common';
 import {Http, HTTP_PROVIDERS} from '@angular/http';
-import {YoutubeSearchService} from './youtubesearch.service';
+import {YoutubeSearchService} from '../../services/youtubesearch.service';
 import 'rxjs/Rx';
 
 @Component({

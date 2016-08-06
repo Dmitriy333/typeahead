@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {Http, HTTP_PROVIDERS, Response} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
-import {TypeAheadDemoComponent} from './typeaheaddemo.component'
+import {TypeAheadDemoComponent} from './components/typeahead/typeaheaddemo.component'
 
 @Component({
     selector: 'my-app',
